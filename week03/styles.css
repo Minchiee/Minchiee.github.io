@@ -10,5 +10,6 @@ body {
 
     background-image: url("page-bg.gif");
     background-color: #f7f3de;
-
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
