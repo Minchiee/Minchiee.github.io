@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: "Georgia", serif;
+    color : black;
+    line-height: 1.4;
+
+    margin: 30px;
+}
