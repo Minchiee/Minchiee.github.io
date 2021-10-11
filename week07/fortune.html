@@ -1,0 +1,43 @@
+<!DOCTYPE HTML> 
+<html> 
+  
+<head> 
+    <title> 
+        Tell your Fortune!
+    </title>
+</head>
+  
+<body style = "text-align:center;"> 
+      
+    <h1 style = "color:black;"> 
+        Tell your Fortune Today! 
+    </h1> 
+      
+    <p id = "intro_title" style = 
+        "font-size: 15px; font-weight: bold;"> 
+    </p>
+      
+    <button id = "button" onclick = "tellFortune()"> 
+        click here 
+    </button> 
+      
+    <p id = "output" style = 
+        "font-size: 24px; font-weight: bold; color: black;"> 
+    </p> 
+      <script>
+                var intro = document.getElementById('intro_title'); 
+        var output = document.getElementById('output'); 
+          
+        var arr = ["You will be a doctor in New York, and married to Olivia with 10 kids.", "You will be a Programmer in China, and married to Zeke with 0 kids.",
+"You will be a Detective in Boston, and married to Kalissa with 4 kids."];
+          
+        intro.innerHTML = "Click on the button to tell your future! "
+          
+        function tellFortune() {
+            output.innerHTML = 
+                arr[Math.floor(Math.random() * arr.length)];
+        } 
+  </script>
+</body> 
+  
+</html>
