@@ -55,8 +55,8 @@ def game_help():
     print('          Hole          ')
     print('------------------------')
     print('- Enter input to move around! -')
-    print('- Type \'up\', \'down\', \'left\', or \'right\'! -')
-    print('- To inspect something, type \'look\'. -')
+    print('- Type \'move\' and where you want to move to\'')
+    print('- To inspect something, type \'examine\'.')
     print('- Have fun! -')
     title_selection()
 
